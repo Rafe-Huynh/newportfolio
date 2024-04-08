@@ -2,7 +2,14 @@ import React from 'react'
 import styles from "./Contact.module.css"
 import { useState } from 'react';
 import { SiMinutemailer } from "react-icons/si";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 const Contact = () => {
+  AOS.init({
+    easing: 'ease-out-quart',
+    delay: 0,
+    duration: 1000
+  })
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
@@ -15,9 +22,9 @@ const Contact = () => {
   
     };
   return (
-    <section id='contact' className={styles.container}>
+    <section id='contact' className={styles.container} >
         <h2 className={styles.title}>  Contact  <SiMinutemailer size={20}/></h2>
-        <form className={styles.form} method='POST' action='https://getform.io/f/7da41f6b-04da-4b3c-8dd5-7895b45dcfb6'>
+        <form className={styles.form} method='POST' action='https://getform.io/f/7da41f6b-04da-4b3c-8dd5-7895b45dcfb6' data-aos="fade-up">
             <input type='text' placeholder='Name...' name ='name' className={styles.ContactInput} value={name} onChange={(e) => setName(e.target.value)} />
             <input type='email' placeholder='Email...' name ='email' className={styles.ContactInput} value={email} onChange={(e) => setEmail(e.target.value)}/>
             <textarea placeholder=' Message...' name='message' className={styles.text} value={message} onChange={(e) => setMessage(e.target.value)} />
