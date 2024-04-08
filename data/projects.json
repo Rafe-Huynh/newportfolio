@@ -1,0 +1,42 @@
+[
+    {
+        "title":"Albums Searcher",
+        "imageSrc": "projects/project1.png",
+        "desc": "Search all the albums belong to singer",
+        "skills": ["React", "Javascript","API"],
+        "visit": "https://albumsearcher.netlify.app/",
+        "source": "https://github.com/Thai-Huynh0510/spotify"
+    },
+    {
+        "title":"Color Generator",
+        "imageSrc": "projects/colorgenerator.png",
+        "desc": "Generate all the color base on Hex",
+        "skills": ["React", "API","TailwindCSS"],
+        "visit": "https://generatingcolor.netlify.app/",
+        "source": "https://github.com/Thai-Huynh0510/color-generator"
+    },
+    {
+        "title":"Shopping List",
+        "imageSrc": "projects/project3.png",
+        "desc": "Add notes what you need to buy while shopping",
+        "skills": ["React", "Javascript","TailwindCSS"],
+        "visit": "https://shoppingl1st.netlify.app/",
+        "source": "https://github.com/Thai-Huynh0510/shopping-list"
+    },
+    {
+        "title":"Cocktail Recipes",
+        "imageSrc": "projects/cocktail.png",
+        "desc": "Find your favorite cocktail",
+        "skills": ["React", "Javascript","API"],
+        "visit": "https://cocktailrec.netlify.app/",
+        "source": "https://github.com/Thai-Huynh0510/Cocktail-searcher"
+    },
+    {
+        "title":"Empower",
+        "imageSrc": "projects/Empower.png",
+        "desc": "CRUD app. Add tasks, update, delete, assign task, and event to employees",
+        "skills": ["React", "Javascript","Node.js", "PostgreSQL"],
+        "visit": "",
+        "source": "https://github.com/Thai-Huynh0510/Empower"
+    }
+]
