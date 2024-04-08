@@ -66,3 +66,37 @@
         z-index: 1;
     }
 }
+.IconContainer{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    top: 30%;
+    left: 0px;
+}
+.Icon{
+    width: 150px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -100px;
+    transition-duration: 300;
+    background: white;
+    border: 3px solid black;
+    padding: 0 15px;
+    border-radius: 0px 10px;
+    transition: 0.4s;
+}
+.Icon:hover{
+    margin-left: 0px;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    width:500px;
+    color: black;
+    font-family: var(--font-roboto);
+
+}

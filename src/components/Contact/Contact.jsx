@@ -15,7 +15,7 @@ const Contact = () => {
   
     };
   return (
-    <section className={styles.container}>
+    <section id='contact' className={styles.container}>
         <h2 className={styles.title}>  Contact  <SiMinutemailer size={20}/></h2>
         <form className={styles.form} method='POST' action='https://getform.io/f/7da41f6b-04da-4b3c-8dd5-7895b45dcfb6'>
             <input type='text' placeholder='Name...' name ='name' className={styles.ContactInput} value={name} onChange={(e) => setName(e.target.value)} />
