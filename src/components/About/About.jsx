@@ -11,14 +11,14 @@ const About = () => {
         <img src={getImageUrl("astro2.gif")} className= {styles.image}/>
         <ul className={styles.aboutItems}>
             <li className={styles.aboutItem}>
-                <IoIosSchool size={50}/>
+                <IoIosSchool size={50}/> 
                 <div className={styles.text}>
                 <h3>Associate of Art</h3>
                 <p>Graduated from Borough of Manhattan College, Major in Computer Science</p>
                 </div>
             </li>
             <li className={styles.aboutItem}>
-                <IoIosSchool size={50}/>
+                <IoIosSchool size={50}/> 
                 <div className={styles.text}>
                 <h3>Bachelor of Art</h3>
                 <p>Graduated from Hunter College, Major in Computer Science</p>
