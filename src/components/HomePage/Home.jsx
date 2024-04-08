@@ -1,7 +1,7 @@
 import React from 'react'
 import { getImageUrl } from '../../ultis'
 import styles from "./Home.module.css"
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll';
 const Home = () => {
   return (
     <section className={styles.container}>
@@ -10,14 +10,14 @@ const Home = () => {
                 Hello, This is <br/> Thai Huynh
             </h1>
             <p className={styles.desc}>
-        I'm a software engineer
+        I'm a software engineer.
         As a recent graduate, <br/>
         I understand the importance of staying ahead in tech.
         I am committed to continuous learning, 
-        eager to add more tools to my developer's arsenal.s
+        eager to add more tools to my developer's arsenal
         </p>
         <button className={`${styles.bubble} ${styles.floatUpDown}`}>
-            <Link to="school">
+            <Link to="about" smooth={true}>
               Learn more about me
             </Link>
           </button>

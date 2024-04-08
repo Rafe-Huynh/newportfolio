@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import styles from "./Navbar.module.css"
 import { RiMenu3Fill } from "react-icons/ri";
 import { IoMdCloseCircle } from "react-icons/io";
+import { Link } from 'react-scroll'
 const Navbar = () => {
   const [menu, setMenu] = useState(false)
   return (
@@ -16,7 +17,7 @@ const Navbar = () => {
         </div>
         <ul className={`${styles.menuItem} ${menu && styles.menuOpen}`} onClick={() => setMenu(false)}>
           <li>
-            <a href='#about'>About</a>
+          <a href='#about'>About</a>
           </li>
           <li>
             <a href='#Projects'>Projects</a>
