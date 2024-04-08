@@ -49,12 +49,13 @@
   }
   
 .bubble:hover {
-    background-color: #fff; /* Adjust color as needed */
-    color: #000; /* Adjust color as needed */
+    background-color: #fff; 
+    color: #000;
+    cursor: pointer;
   }
   
 .floatUpDown {
-    animation: floatUpDown 1s infinite alternate; /* Define animation */
+    animation: floatUpDown 1s infinite alternate; 
   }
   
 @keyframes floatUpDown {
