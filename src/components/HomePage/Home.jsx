@@ -18,7 +18,7 @@ const Home = () => {
             </h1>
             <p className={styles.desc}>
         I'm a software engineer.
-        As a recent graduate, <br/>
+        As a recent graduate,
         I understand the importance of staying ahead in tech.
         I am committed to continuous learning, 
         eager to add more tools to my developer's arsenal
