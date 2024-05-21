@@ -8,14 +8,6 @@
         "source": "https://github.com/Thai-Huynh0510/spotify"
     },
     {
-        "title":"Color Generator",
-        "imageSrc": "projects/colorgenerator.png",
-        "desc": "Generate all the color base on Hex",
-        "skills": ["React", "API","TailwindCSS"],
-        "visit": "https://generatingcolor.netlify.app/",
-        "source": "https://github.com/Thai-Huynh0510/color-generator"
-    },
-    {
         "title":"Shopping List",
         "imageSrc": "projects/project3.png",
         "desc": "Add notes what you need to buy while shopping",
@@ -32,19 +24,19 @@
         "source": "https://github.com/Thai-Huynh0510/Cocktail-searcher"
     },
     {
-        "title":"Empower",
-        "imageSrc": "projects/Empower.png",
-        "desc": "CRUD app. Add tasks, update, delete, assign task, and event to employees",
-        "skills": ["React", "Javascript","Node.js", "PostgreSQL"],
-        "visit": "",
-        "source": "https://github.com/Thai-Huynh0510/Empower"
-    },
-    {
         "title":"PromptVille",
         "imageSrc": "projects/prompt.png",
         "desc": "Create and share you prompts",
         "skills": ["React", "Javascript","API", "NextJs", "NextAuth"],
         "visit": "https://next-project-emwn.vercel.app/",
         "source": "https://github.com/Thai-Huynh0510/next-project"
+    },
+    {
+        "title":"Online Banking",
+        "imageSrc": "projects/OnlineBanking.png",
+        "desc": "Online Banking with Real transactions",
+        "skills": ["React", "TypeScript","API", "NextJs", "NextAuth", "Plaid", "Dwolla", "TailwindCSS", "Shadcn" ],
+        "visit": "https://online-banking-cmsye81az-rafes-projects-5778443b.vercel.app/sign-in",
+        "source": "https://github.com/Thai-Huynh0510/online_banking"
     }
 ]
