@@ -2,12 +2,12 @@
     
     
     {
-        "title":"PromptVille",
-        "imageSrc": "projects/prompt.png",
-        "desc": "Create and share you prompts",
-        "skills": ["React", "Javascript","API", "NextJs", "NextAuth"],
-        "visit": "https://next-project-emwn.vercel.app/",
-        "source": "https://github.com/Thai-Huynh0510/next-project"
+        "title":"Podcast",
+        "imageSrc": "projects/podcasts.png",
+        "desc": "create and listen to your favorite Podcasts",
+        "skills": ["React", "TypeScript","API", "NextJs", "OpenAI", "Convex", "Clerk", "TailwindCSS", "Shadcn" ],
+        "visit": "https://podcast-peach-phi.vercel.app/",
+        "source": "https://github.com/Thai-Huynh0510/podcast"
     },
     {
         "title":"Online Banking",
@@ -18,12 +18,20 @@
         "source": "https://github.com/Thai-Huynh0510/online_banking"
     },
     {
-        "title":"Podcast",
-        "imageSrc": "projects/podcasts.png",
-        "desc": "create and listen to your favorite Podcasts",
-        "skills": ["React", "TypeScript","API", "NextJs", "OpenAI", "Convex", "Clerk", "TailwindCSS", "Shadcn" ],
-        "visit": "https://podcast-peach-phi.vercel.app/",
-        "source": "https://github.com/Thai-Huynh0510/podcast"
+        "title":"Zoom Clone",
+        "imageSrc": "projects/newproject.png",
+        "desc": "Zoom Clone, video, stream, call, recordings",
+        "skills": ["React", "TypeScript","API", "NextJs", "Stream", "Clerk", "TailwindCSS", "Shadcn" ],
+        "visit": "https://zoom-clone-cc8ptdrfz-rafes-projects-5778443b.vercel.app/",
+        "source": "https://github.com/Thai-Huynh0510/zoom_clone"
+    },
+    {
+        "title":"PromptVille",
+        "imageSrc": "projects/prompt.png",
+        "desc": "Create and share you prompts",
+        "skills": ["React", "Javascript","API", "NextJs", "NextAuth"],
+        "visit": "https://next-project-emwn.vercel.app/",
+        "source": "https://github.com/Thai-Huynh0510/next-project"
     },
     {
         "title":"Cocktail Recipes",
