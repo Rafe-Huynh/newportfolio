@@ -10,6 +10,15 @@
         "source": "https://github.com/Thai-Huynh0510/podcast"
     },
     {
+        "title":"Health Management",
+        "imageSrc": "projects/doc.png",
+        "desc": "Schedule a doctor appointment",
+        "skills": ["React", "TypeScript","API", "NextJs", "Appwrite", "Twillio", "TailwindCSS", "Shadcn" ],
+        "visit": "https://health-management-aprzdumye-rafes-projects-5778443b.vercel.app/",
+        "source": "https://github.com/Thai-Huynh0510/health_management"
+    },
+
+    {
         "title":"Online Banking",
         "imageSrc": "projects/OnlineBanking.png",
         "desc": "Online Banking with Real transactions",
@@ -40,13 +49,5 @@
         "skills": ["React", "Javascript","API"],
         "visit": "https://cocktailrec.netlify.app/",
         "source": "https://github.com/Thai-Huynh0510/Cocktail-searcher"
-    },
-    {
-        "title":"Albums Searcher",
-        "imageSrc": "projects/project1.png",
-        "desc": "Search all the albums belong to singer",
-        "skills": ["React", "Javascript","API"],
-        "visit": "https://albumsearcher.netlify.app/",
-        "source": "https://github.com/Thai-Huynh0510/spotify"
     }
 ]
