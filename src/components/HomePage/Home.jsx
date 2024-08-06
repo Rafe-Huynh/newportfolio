@@ -14,7 +14,7 @@ const Home = () => {
     <section className={styles.container}>
         <div className={styles.content}>
             <h1 className={styles.title}>
-                Hello, This is <br/> Thai Huynh
+                Hello, This is <br/> Rafe Huynh
             </h1>
             <p className={styles.desc}>
         I'm a software engineer.

@@ -34,10 +34,10 @@ const Navbar = () => {
       <div className={styles.IconContainer}>
         <ul>
           <li className={styles.Icon}>
-            <a className= {styles.link} href="https://www.linkedin.com/in/thai-huynh-251a39218/" target="_blank">Linkedin <FaLinkedin size={40} /></a>
+            <a className= {styles.link} href="https://www.linkedin.com/in/rafe-huynh-251a39218/" target="_blank">Linkedin <FaLinkedin size={40} /></a>
           </li>
           <li className={styles.Icon}>
-            <a  className= {styles.link} href="https://github.com/Thai-Huynh0510" target="_blank"> GitHub <FaGithub size={40}/> </a>
+            <a  className= {styles.link} href="https://github.com/Rafe-Huynh" target="_blank"> GitHub <FaGithub size={40}/> </a>
           </li>
           <li className={styles.Icon}>
             <a  className= {styles.link} href='#contact' > Contact <HiMailOpen size={40} /> </a>
