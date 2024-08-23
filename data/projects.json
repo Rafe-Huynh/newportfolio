@@ -35,6 +35,14 @@
         "source": "https://github.com/Thai-Huynh0510/zoom_clone"
     },
     {
+        "title":"Googledoc Clone",
+        "imageSrc": "projects/googledoc.png",
+        "desc": "GoogleDoc, real time cooperate, real time documents",
+        "skills": ["React", "TypeScript","Liveblocks", "NextJs", "Clerk", "TailwindCSS", "Shadcn" ],
+        "visit": "googledoccloned.vercel.app",
+        "source": "https://github.com/Rafe-Huynh/googledoc"
+    },
+    {
         "title":"PromptVille",
         "imageSrc": "projects/prompt.png",
         "desc": "Create and share you prompts",
